@@ -1,53 +1,47 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
-</p>
+# Project Name
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+[![Release Version](https://img.shields.io/badge/release-v0.0.0-blue)]()
+[![Sonarcloud Status](https://sonarqube.ioasys.com.br/api/project_badges/measure?project=PROJECT_KEY&metric=alert_status)](https://sonarcloud.io/dashboard?id=PROJECT_KEY)
+[![SonarCloud Coverage](https://sonarqube.ioasys.com.br/api/project_badges/measure?project=PROJECT_KEY&metric=coverage)](https://sonarcloud.io/component_measures/metric/coverage/list?id=PROJECT_KEY)
+[![SonarCloud Bugs](https://sonarqube.ioasys.com.br/api/project_badges/measure?project=PROJECT_KEY&metric=bugs)](https://sonarcloud.io/component_measures/metric/reliability_rating/list?id=PROJECT_KEY)
+[![SonarCloud Vulnerabilities](https://sonarqube.ioasys.com.br/api/project_badges/measure?project=PROJECT_KEY&metric=vulnerabilities)](https://sonarcloud.io/component_measures/metric/security_rating/list?id=PROJECT_KEY)
+[![Release Version](https://img.shields.io/badge/co.created%20by-ioasys-dc3562)]()
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+> Add the project description
 
-## Description
+## Project Setup
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+### Installation Steps
 
-## Installation
+> **IMPORTANT!** Add any other step that is required in order to setup/run the app locally or in any other environment.
 
-```bash
+Install dependencies
+```sh
 $ npm install
 ```
 
-## Running the app
+Setup environment variables (modify/add more variables if/when needed)
 
-```bash
-# development
+```sh
+$ cp .env.example .env
+```
+
+### Running the app
+
+```sh
+# Development
 $ npm run start
 
-# watch mode
+# Watch mode
 $ npm run start:dev
 
-# production mode
+# Production mode
 $ npm run start:prod
 ```
 
-## Test
+### Testing the app
 
-```bash
+```sh
 # unit tests
 $ npm run test
 
@@ -58,16 +52,36 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
+## Deployment
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+> Describe the deployment process (if applicable)
 
-## Stay in touch
+## Project Structure
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+> Describe the project's structure, adding a concise and objective description
 
-## License
+| Directory | Description                                                                                                           |
+|-----------|-----------------------------------------------------------------------------------------------------------------------|
+| @config/  | Stores code related to the application's configuration.                                                               |
+| @modules/ | Stores all modules for the application. Ex.: Health, Users                                                            |
+| @shared/  | Stores code that can be used across all modules. Ex.: Providers, Helpers, Enums                                       |
+| docs/     | Stores everything related to the application's documentation. Ex.: DB, and Architecture Diagrams, Business Rules, etc |
+| infra/    | Stores everything related to the application's infrastructure. Ex.: DB, and Deployment scripts, etc                   |
 
-Nest is [MIT licensed](LICENSE).
+
+## Diagrams
+
+> Add diagrams related to this project, if applicable, for example: DB diagram, Architecture, etc.
+> - ![DB Diagram](/docs/db-diagram.png)
+
+## Team
+
+> Add the names of the members of the team involved in the project, for example:
+> - Darth Sidius (PO)
+> - Darth Vader (SM)
+> - Inquisitor (dev)
+
+## Business Rules
+
+> Add links describing business rules that might be somewhat difficult to understand only by looking at the code, or it might just be helpful to know, for example:
+> - [User Import Business Rules](/docs/users-import.md) 
