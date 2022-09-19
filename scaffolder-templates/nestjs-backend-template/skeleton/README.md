@@ -60,13 +60,13 @@ $ npm run test:cov
 
 > Describe the project's structure, adding a concise and objective description
 
-| Directory | Description                                                                                                           |
-|-----------|-----------------------------------------------------------------------------------------------------------------------|
-| @config/  | Stores code related to the application's configuration.                                                               |
-| @modules/ | Stores all modules for the application. Ex.: Health, Users                                                            |
-| @shared/  | Stores code that can be used across all modules. Ex.: Providers, Helpers, Enums                                       |
-| docs/     | Stores everything related to the application's documentation. Ex.: DB, and Architecture Diagrams, Business Rules, etc |
-| infra/    | Stores everything related to the application's infrastructure. Ex.: DB, and Deployment scripts, etc                   |
+| Directory     | Description                                                                                                           |
+|---------------|-----------------------------------------------------------------------------------------------------------------------|
+| src/@config/  | Stores code related to the application's configuration.                                                               |
+| src/@modules/ | Stores all modules for the application. Ex.: Health, Users                                                            |
+| src/@shared/  | Stores code that can be used across all modules. Ex.: Providers, Helpers, Enums                                       |
+| docs/         | Stores everything related to the application's documentation. Ex.: DB, and Architecture Diagrams, Business Rules, etc |
+| infra/        | Stores everything related to the application's infrastructure. Ex.: DB, and Deployment scripts, etc                   |
 
 
 ## Diagrams
